@@ -10,7 +10,7 @@ export const Main = () => {
       <FirstImage width={width} />
       <Table responsive hover variant="dark" style={{ fontSize: "100%" }}>
         <thead>
-          <tr>
+          <tr style={{ maxHeight: "20px" }}>
             <th>#</th>
             <th>Platform</th>
             <th>Last Traded Price</th>

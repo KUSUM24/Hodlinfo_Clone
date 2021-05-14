@@ -5,7 +5,7 @@ export const HeaderMain = (width) => {
   let fontCenter = "65px";
   let fontBottom = "20px";
   let padding = "35px";
-  if (width <= 500) {
+  if (width.width <= 500) {
     fontPercent = "20px";
     fontCenter = "35px";
     fontBottom = "8px";
@@ -15,11 +15,11 @@ export const HeaderMain = (width) => {
   return (
     <div
       className="d-flex justify-content-around align-items-center bg-dark w-100 "
-      style={{ fontSize: { fontBottom } }}
+      style={{ fontSize: fontBottom }}
     >
       <div className="d-flex flex-column">
         <b>
-          <div className="text-info" style={{ fontSize: { fontPercent } }}>
+          <div className="text-info" style={{ fontSize: fontPercent }}>
             1.53 %
           </div>
           <div className="text-secondary">5 Mins</div>
@@ -27,7 +27,7 @@ export const HeaderMain = (width) => {
       </div>
       <div className="d-flex flex-column">
         <b>
-          <div className="text-info" style={{ fontSize: { fontPercent } }}>
+          <div className="text-info" style={{ fontSize: fontPercent }}>
             1.53 %
           </div>
           <div className="text-secondary">1 Hour</div>
@@ -35,13 +35,13 @@ export const HeaderMain = (width) => {
       </div>
       <div
         className="d-flex flex-column justify-content-center align-items-center"
-        style={{ paddingBottom: { padding } }}
+        style={{ paddingBottom: padding }}
       >
         <b>
-          <div className="text-secondary" style={{ fontSize: { fontPercent } }}>
+          <div className="text-secondary" style={{ fontSize: fontPercent }}>
             Best Price to Trade
           </div>
-          <div className="text-white" style={{ fontSize: { fontCenter } }}>
+          <div className="text-white" style={{ fontSize: fontCenter }}>
             ₹ 38,70,160
           </div>
           <div className="text-secondary m-0">Average BTC/INR net</div>
@@ -50,7 +50,7 @@ export const HeaderMain = (width) => {
       </div>
       <div className="d-flex flex-column">
         <b>
-          <div className="text-info" style={{ fontSize: { fontPercent } }}>
+          <div className="text-info" style={{ fontSize: fontPercent }}>
             1.53 %
           </div>
           <div className="text-secondary">1 Day</div>
@@ -58,7 +58,7 @@ export const HeaderMain = (width) => {
       </div>
       <div className="d-flex flex-column">
         <b>
-          <div className="text-info" style={{ fontSize: { fontPercent } }}>
+          <div className="text-info" style={{ fontSize: fontPercent }}>
             1.53 %
           </div>
           <div className="text-secondary">7 Days</div>
