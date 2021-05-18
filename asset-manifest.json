@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/Hodlinfo_Clone/static/css/main.0d4c9c6e.chunk.css",
-    "main.js": "/Hodlinfo_Clone/static/js/main.4aacadd7.chunk.js",
-    "main.js.map": "/Hodlinfo_Clone/static/js/main.4aacadd7.chunk.js.map",
+    "main.js": "/Hodlinfo_Clone/static/js/main.b4919c07.chunk.js",
+    "main.js.map": "/Hodlinfo_Clone/static/js/main.b4919c07.chunk.js.map",
     "runtime-main.js": "/Hodlinfo_Clone/static/js/runtime-main.ca7b900d.js",
     "runtime-main.js.map": "/Hodlinfo_Clone/static/js/runtime-main.ca7b900d.js.map",
     "static/css/2.48d98f1b.chunk.css": "/Hodlinfo_Clone/static/css/2.48d98f1b.chunk.css",
@@ -21,6 +21,6 @@
     "static/css/2.48d98f1b.chunk.css",
     "static/js/2.7e29294c.chunk.js",
     "static/css/main.0d4c9c6e.chunk.css",
-    "static/js/main.4aacadd7.chunk.js"
+    "static/js/main.b4919c07.chunk.js"
   ]
 }
