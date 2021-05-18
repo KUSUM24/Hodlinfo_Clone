@@ -5,6 +5,7 @@ export const HeaderMain = (width) => {
   let fontCenter = "65px";
   let fontBottom = "20px";
   let padding = "35px";
+  let fontBest = "30px";
   if (width.width <= 500) {
     fontPercent = "20px";
     fontCenter = "35px";
@@ -38,7 +39,7 @@ export const HeaderMain = (width) => {
         style={{ paddingBottom: padding }}
       >
         <b>
-          <div className="text-secondary" style={{ fontSize: fontPercent }}>
+          <div className="text-secondary" style={{ fontSize: fontBest }}>
             Best Price to Trade
           </div>
           <div className="text-white" style={{ fontSize: fontCenter }}>

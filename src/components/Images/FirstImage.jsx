@@ -5,7 +5,9 @@ export const FirstImage = (width) => {
   console.log(width);
   return (
     <div>
-      <img src={firstImg} className="p-3" width={width.width} alt="error" />
+      <a href="https://finstreet.in/courses">
+        <img src={firstImg} className="p-3" width={width.width} alt="error" />
+      </a>
     </div>
   );
 };
